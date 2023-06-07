@@ -1,0 +1,341 @@
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.contenido {
+  display: flex;
+  margin: 60xp;
+}
+
+.articulos {
+  width: 80%;
+  border-right: 3px solid black;
+}
+
+.secciones {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+
+  .a {
+    color: #ff0000;
+  }
+}
+
+.birds h2 {
+  padding: 15PX;
+  color: #ff0000;
+  text-align: center;
+}
+
+.hr {
+  color: #000;
+  padding: 15px;
+}
+
+.modal-content {
+  background: #000;
+}
+
+
+
+
+
+.card {
+  background: #000;
+
+  .p {
+    color: #fff;
+  }
+  
+  .a {
+    color: #1100ff;
+  }
+  
+  .h5 {
+    color: #ff0000;
+    text-align: center;
+  }
+  
+  .img {
+    padding: 50px;
+  }
+
+}
+
+.card-2 {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #000000;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+  
+    img {
+      width: 100%;
+      height: 210px;
+    }
+    
+    .contenido-card {
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .contenido-card h3 {
+      margin-bottom: 15px;
+      color: #ffffff;
+    }
+    
+    .contenido-card p {
+      line-height: 1.8;
+      color: #ffffff;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    
+    .contenido-card a {
+      display: inline-block;
+      padding: 10px;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #2fb4cc;
+      border: 1px solid #2fb4cc;
+      border-radius: 4px;
+      transition: all 400ms ease;
+      margin-bottom: 5px;
+    }
+    
+    .contenido-card a:hover {
+      background: #2fb4cc;
+      color: #000000;
+    }
+}
+
+.card-3 {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #000000;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+
+  img {
+    width: 100%;
+    height: 210px;
+  }
+  
+  .contenido-card {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .contenido-card h3 {
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .contenido-card p {
+    line-height: 1.8;
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .contenido-card a {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+  }
+  
+  .contenido-card a:hover {
+    background: #2fb4cc;
+    color: #000000;
+  }
+}
+
+//contacto
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+  }
+  .contact-wrapper > * {
+    padding: 1em;
+  }
+  
+  .contact-form {
+    background: #222222;
+  }
+  
+  .contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .contact-form form label {
+    display: block;
+  }
+  
+  .contact-form form p {
+    margin: 0;
+    padding: 1em;
+  }
+  
+  .contact-form form .block {
+    grid-column: 1/3;
+  }
+  
+  .contact-form form button,
+  .contact-form form input,
+  .contact-form form textarea {
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #d63031;
+  }
+  
+  .contact-form form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+  }
+  
+  .contact-form form button:hover,
+  .contact-form form button:focus {
+    background: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+  }
+  
+  .contact-info {
+    background: #000;
+  }
+  
+  .contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+
+//pagos
+.pagos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  min-height: 100vh;
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+
+.pagos form {
+  padding: 20px;
+  width: 700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+
+.pagos form .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.container form .row .col {
+  flex: 1 1 250px;
+}
+
+.pagos form .row .col .title {
+  font-size: 20px;
+  color: #333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.pagos form .row .col .inputBox {
+  margin: 15px 0;
+}
+
+.pagos form .row .col .inputBox span {
+  margin-bottom: 10px;
+  display: block;
+  color: #000;
+}
+
+.pagos form .row .col .inputBox input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.pagos form .row .col .inputBox input:focus {
+  border: 1px solid #000;
+}
+
+.pagos form .row .col .flex {
+  display: flex;
+  gap: 15px;
+}
+
+.pagos form .row .col .flex .inputBox {
+  margin-top: 5px;
+}
+
+.pagos form .row .col .inputBox img {
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.pagos form .submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  background: #27ae60;
+  color: #fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.pagos form .submit-btn:hover {
+  background: #2ecc71;
+}
+
+.container-card {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.title-cards {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #7a7a7a;
+}
+  
+  /*# sourceMappingURL=style.css.map */
+  

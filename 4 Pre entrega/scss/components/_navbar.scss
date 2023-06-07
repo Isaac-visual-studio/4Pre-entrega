@@ -1,0 +1,25 @@
+nav {
+
+    ul {
+        background-color: #ff0000;
+        width: 100%;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    li {
+        display: inline-flex;
+    }
+      
+    a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        width: 150px;
+    }
+      
+    li:hover {
+        background-color: black;
+    }
+}
+  
